@@ -1,0 +1,37 @@
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #010101;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-bottom: 20px;
+}

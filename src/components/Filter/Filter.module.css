@@ -1,0 +1,19 @@
+.label {
+    border: 2px solid blue;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 20px;
+}

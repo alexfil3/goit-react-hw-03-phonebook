@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 22px;
+    display: flex;
+}
+
+.span {
+    margin-left: 5px;
+}
+
+.button {
+   border-radius: 20px;
+}
+
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}

@@ -48,10 +48,11 @@ export class App extends Component {
   };
 
   componentDidMount() {
-    const items = localStorage.getItem('contacts');
+    const contacts = localStorage.getItem('contacts');
+    const parsedContacts = JSON.parse(contacts);
 
-    if (items) {
-      this.setState({ contacts: JSON.parse(items) });
+    if (parsedContacts) {
+      this.setState({ contacts: parsedContacts });
     }
   }
 
